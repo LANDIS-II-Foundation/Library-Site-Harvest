@@ -8,7 +8,7 @@ $master = "https://github.com/LANDIS-II-Foundation/Support-Library-Dlls-v7/raw/m
 
 $dlls = "Landis.Library.AgeOnlyCohorts-v3.dll",
 "Landis.Library.Cohorts-v2.dll",
-"Landis.Library.Succession-v8.dll"
+"Landis.Library.Succession-v9.dll"
 #************************************************
 
 

@@ -7,7 +7,7 @@
     <AssemblyCompany>LANDIS-II Foundation</AssemblyCompany>
     <AssemblyProduct>Landis.Library.SiteHarvest-v2</AssemblyProduct>
     <AssemblyCopyright>Landis-II-Foundation</AssemblyCopyright>        
-    <AssemblyVersion>2.1</AssemblyVersion>
+    <AssemblyVersion>2.2</AssemblyVersion>
     <AssemblyDescription>Harvest Library for LANDIS-II</AssemblyDescription>
     <TargetFramework>netstandard2.0</TargetFramework>
     <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
@@ -19,11 +19,11 @@
     <Authors>Landis-II-Foundation</Authors>
     <Product>Harvest Library</Product>
     <Copyright>Landis-II-Foundation</Copyright> 
-    <Version>2.1</Version> 
+    <Version>2.2</Version> 
     <PackageTags>LANDIS-II;Landis;Library;Site Harvest</PackageTags>
     <Description>Harvest Library for LANDIS-II</Description>
     <PackageReleaseNotes>.NET Standard 2.0 update.</PackageReleaseNotes>
-    <FileVersion>2.1</FileVersion>
+    <FileVersion>2.2</FileVersion>
   </PropertyGroup>
   
   <ItemGroup>    
@@ -38,8 +38,8 @@
     <Reference Include="Landis.Library.Cohorts-v2">
       <HintPath>lib\Landis.Library.Cohorts-v2.dll</HintPath>
     </Reference>
-    <Reference Include="Landis.Library.Succession-v8">
-      <HintPath>lib\Landis.Library.Succession-v8.dll</HintPath>
+    <Reference Include="Landis.Library.Succession-v9">
+      <HintPath>lib\Landis.Library.Succession-v9.dll</HintPath>
     </Reference>
   </ItemGroup>
   
