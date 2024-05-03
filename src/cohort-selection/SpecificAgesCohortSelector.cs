@@ -1,6 +1,6 @@
 // Copyright 2005 University of Wisconsin
 
-using Landis.Library.AgeOnlyCohorts;
+using Landis.Library.UniversalCohorts;
 using System.Collections.Generic;
 
 namespace Landis.Library.SiteHarvest
@@ -35,7 +35,7 @@ namespace Landis.Library.SiteHarvest
     	    int i = 0;
     	    foreach (ICohort cohort in cohorts) {
                 AgeRange? notUsed;
-    	        if (agesAndRanges.Contains(cohort.Age, out notUsed))
+    	        if (agesAndRanges.Contains(cohort.Data.Age, out notUsed))
     	            isHarvested[i] = true;
     	        i++;
     	    }

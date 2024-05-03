@@ -1,7 +1,7 @@
 ﻿// This file is part of the Site Harvest library for LANDIS-II.
 
 using Landis.Core;
-using Landis.Library.AgeOnlyCohorts;
+using Landis.Library.UniversalCohorts;
 using Landis.SpatialModeling;
 using log4net;
 
@@ -66,7 +66,7 @@ namespace Landis.Library.SiteHarvest
                     foreach (ICohort cohort in cohorts)
                     {
                         if (isKilled[i])
-                            ageList += string.Format(" {0}", cohort.Age);
+                            ageList += string.Format(" {0}", cohort.Data.Age);
                         i++;
                     }
                     log.DebugFormat("      Cut {0} :{1}", cohorts.Species.Name, ageList);
@@ -99,6 +99,11 @@ namespace Landis.Library.SiteHarvest
             this.cohortCounts = cohortCounts;
             cohortCounts.Reset();
             SiteVars.Cohorts[site].RemoveMarkedCohorts(this);
+        }
+
+        int IDisturbance.ReduceOrKillMarkedCohort(ICohort cohort)
+        {
+            throw new System.NotImplementedException();
         }
 
         #endregion

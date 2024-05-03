@@ -1,7 +1,7 @@
 // Copyright 2005 University of Wisconsin
 
 using Landis.Core;
-using Landis.Library.AgeOnlyCohorts;
+using Landis.Library.UniversalCohorts;
 using System.Collections.Generic;
 
 namespace Landis.Library.SiteHarvest
