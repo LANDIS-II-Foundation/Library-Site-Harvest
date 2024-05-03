@@ -19,7 +19,7 @@
     <Authors>Landis-II-Foundation</Authors>
     <Product>Harvest Library</Product>
     <Copyright>Landis-II-Foundation</Copyright> 
-    <Version>2.1</Version> 
+    <Version>2.2</Version> 
     <PackageTags>LANDIS-II;Landis;Library;Site Harvest</PackageTags>
     <Description>Harvest Library for LANDIS-II</Description>
     <PackageReleaseNotes>.NET Standard 2.0 update.</PackageReleaseNotes>
