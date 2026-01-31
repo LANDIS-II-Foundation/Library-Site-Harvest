@@ -101,7 +101,7 @@ namespace Landis.Library.SiteHarvest
             SiteVars.Cohorts[site].RemoveMarkedCohorts(this);
         }
 
-        int IDisturbance.ReduceOrKillMarkedCohort(ICohort cohort)
+        double IDisturbance.ReduceOrKillMarkedCohort(ICohort cohort)
         {
             throw new System.NotImplementedException();
         }
