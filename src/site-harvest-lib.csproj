@@ -2,15 +2,15 @@
 
   <PropertyGroup>
     <RootNamespace>Landis.Library.SiteHarvest</RootNamespace>
-    <AssemblyName>Landis.Library.SiteHarvest-v2</AssemblyName>
-    <AssemblyTitle>Landis.Library.SiteHarvest-v2</AssemblyTitle>
-    <AssemblyCompany>LANDIS-II Foundation</AssemblyCompany>
-    <AssemblyProduct>Landis.Library.SiteHarvest-v2</AssemblyProduct>
-    <AssemblyCopyright>Landis-II-Foundation</AssemblyCopyright>
+    <AssemblyName>Landis.Library.SiteHarvest-v3</AssemblyName>
+    <AssemblyTitle>Landis.Library.SiteHarvest-v3</AssemblyTitle>
+	  <AssemblyProduct>Landis.Library.SiteHarvest-v3</AssemblyProduct>
+	  <AssemblyCompany>LANDIS-II Foundation</AssemblyCompany>
+	  <AssemblyCopyright>Landis-II-Foundation</AssemblyCopyright>
 	  <AssemblyDescription>Harvest Library for LANDIS-II</AssemblyDescription>
-	  <AssemblyVersion>2.3</AssemblyVersion>
-	  <Version>2.3</Version>
-	  <FileVersion>2.3</FileVersion>
+	  <AssemblyVersion>3.0</AssemblyVersion>
+	  <Version>3.0</Version>
+	  <FileVersion>3.0</FileVersion>
 	  <TargetFramework>netstandard2.0</TargetFramework>
     <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
     <RepositoryUrl>https://github.com/LANDIS-II-Foundation/Library-Site-Harvest</RepositoryUrl>
