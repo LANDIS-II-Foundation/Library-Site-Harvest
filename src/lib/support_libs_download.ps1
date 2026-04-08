@@ -1,13 +1,13 @@
 # LANDIS-II support library GitHub URL
-$master = "https://github.com/LANDIS-II-Foundation/Support-Library-Dlls-v8/raw/main/"
-
+# $master = "https://github.com/LANDIS-II-Foundation/Support-Library-Dlls-v8/raw/main/"
+$master = "https://github.com/rmscheller/Support-Library-Dlls-v8/raw/main/"
 
 #************************************************
 # LANDIS-II support library dependencies
 # Modify here when any dependencies changed 
 
 $dlls = "Landis.Library.Succession-v9.dll",
-"Landis.Library.UniversalCohorts-v1.dll"
+"Landis.Library.UniversalCohorts-v2.dll"
 #************************************************
 
 
